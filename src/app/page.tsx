@@ -185,6 +185,9 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <footer className="mx-auto mt-10 w-full max-w-[960px] border-t border-slate-800/60 px-5 py-8 text-center text-xs text-slate-400 sm:px-8">
+        © 2025 tsuyox.dev
+      </footer>
     </div>
   );
 }
