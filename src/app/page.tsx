@@ -168,22 +168,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="links" className={cardStyles}>
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-indigo-200/90">
-            Links
-          </p>
-          <h2 className="mt-2 text-2xl font-semibold text-white">Find me on</h2>
-          <div className="mt-6">
-            <a
-              href="https://www.instagram.com/tsuyox2024/"
-              target="_blank"
-              rel="noreferrer"
-              className={`${glowButtonClasses} justify-center text-base`}
-            >
-              Instagram (@tsuyox2024)
-            </a>
-          </div>
-        </section>
       </main>
       <footer className="mx-auto mt-10 w-full max-w-[960px] border-t border-slate-800/60 px-5 py-8 text-center text-xs text-slate-400 sm:px-8">
         © 2025 tsuyox.dev
