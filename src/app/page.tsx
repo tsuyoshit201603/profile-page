@@ -25,7 +25,7 @@ const experiences = [
   {
     period: "2020年1月 〜 2022年9月",
     description:
-      "業務系システム開発のソフトウェアエンジニアとして従事。メンバーとして機能追加や保守開発を担当しつつ、一部の案件ではサブリーダーとしてタスク管理やメンバーサポートも行いました。",
+      "業務系システム開発プロジェクトのプログラマーとして従事。メンバーとして機能追加や保守開発を担当しつつ、一部の案件ではサブリーダーとしてタスク管理やメンバーサポートも行いました。",
   },
   {
     period: "2022年10月 〜 2024年8月",
@@ -35,7 +35,12 @@ const experiences = [
   {
     period: "2024年9月 〜 2025年12月",
     description:
-      "フリーランスのソフトウェアエンジニアとしてAPI開発に従事。要件整理から設計、実装、テストまで一貫して担当し、スケーラブルなAPI基盤の構築を支援しています。",
+      "フリーランスのソフトウェアエンジニアとしてAPI開発に従事。要件整理から設計、実装、テストまで一貫して担当し、スケーラブルなAPI基盤の構築を支援しました。",
+  },
+  {
+    period: "2026年1月 〜 現在",
+    description:
+      "大規模システム開発プロジェクトのPMOとして、障害分析や進捗の見える化などを支援しています。VBAやPythonを用いた、定常業務の効率化にも取り組んでいます。",
   },
 ] as const;
 
@@ -168,22 +173,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="links" className={cardStyles}>
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-indigo-200/90">
-            Links
-          </p>
-          <h2 className="mt-2 text-2xl font-semibold text-white">Find me on</h2>
-          <div className="mt-6">
-            <a
-              href="https://www.instagram.com/tsuyox2024/"
-              target="_blank"
-              rel="noreferrer"
-              className={`${glowButtonClasses} justify-center text-base`}
-            >
-              Instagram (@tsuyox2024)
-            </a>
-          </div>
-        </section>
       </main>
       <footer className="mx-auto mt-10 w-full max-w-[960px] border-t border-slate-800/60 px-5 py-8 text-center text-xs text-slate-400 sm:px-8">
         © 2025 tsuyox.dev
