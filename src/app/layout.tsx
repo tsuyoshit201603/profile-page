@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tsuyoshi | Software Engineer / PMO",
+  title: "Tsuyoshi | Software Engineer",
   description:
     "Tsuyoshiの自己紹介ページ。ソフトウェアエンジニアとしての経歴やスキル、SNSリンクを紹介しています。",
 };

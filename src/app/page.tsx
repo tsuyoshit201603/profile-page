@@ -1,7 +1,7 @@
 const skillGroups = [
   {
     title: "Languages",
-    items: ["Java", "JavaScript", "TypeScript", "PHP", "Go"],
+    items: ["Java", "JavaScript", "TypeScript", "PHP", "Go", "Python", "SQL", "VBA"],
   },
   {
     title: "Backend & Frameworks",
@@ -38,9 +38,14 @@ const experiences = [
       "フリーランスのソフトウェアエンジニアとしてAPI開発に従事。要件整理から設計、実装、テストまで一貫して担当し、スケーラブルなAPI基盤の構築を支援しました。",
   },
   {
-    period: "2026年1月 〜 現在",
+    period: "2026年1月 〜 2026年6月",
     description:
-      "大規模システム開発プロジェクトのPMOとして、障害分析や進捗の見える化などを支援しています。VBAやPythonを用いた、定常業務の効率化にも取り組んでいます。",
+      "大規模システム開発プロジェクトのPMOとして、障害分析や進捗の見える化を支援しました。VBAやPythonを用いた定常業務の効率化にも取り組みました。",
+  },
+  {
+    period: "2026年7月 〜 現在",
+    description:
+      "ソフトウェアエンジニアとして開発を行う予定です。プロダクト品質と開発効率の両方を高めることを目指しています。",
   },
 ] as const;
 
@@ -73,12 +78,12 @@ export default function Home() {
               Tsuyoshi
             </h1>
             <p className="text-lg font-medium text-indigo-200">
-              Software Engineer / PMO
+              Software Engineer
             </p>
           </div>
           <div className="space-y-4 text-slate-200">
             <div className="space-y-2 text-lg font-medium sm:text-xl">
-              <p>Software Engineer → PMO</p>
+              <p>Software Engineer</p>
               <p>Backend / API / Team Management</p>
             </div>
             <div className="space-y-1 text-sm leading-relaxed text-slate-100/80 sm:text-base">
@@ -105,13 +110,13 @@ export default function Home() {
           <div className="mt-5 space-y-4 text-base leading-relaxed text-slate-100/90">
             <p>1994年生まれ、関西在住。</p>
             <ul className="list-disc space-y-1 pl-5 text-slate-100">
-              <li>Role: Software Engineer → PMO</li>
+              <li>Role: Software Engineer</li>
               <li>Focus: Backend / API / Team Management</li>
               <li>Hobbies: Workout, Reading, Sauna, Shisha</li>
             </ul>
             <p>
-              業務系システムとSaaSプロダクトの開発を経て、
-              「コード」と「プロジェクトデザイン」の両面からチームに貢献できるPMOを目指しています。
+              業務系システムとSaaSプロダクトの開発、PMOの経験を経て、
+              ソフトウェアエンジニアとしてプロダクト品質と開発効率の両方を高めることを目指しています。
             </p>
           </div>
         </section>
